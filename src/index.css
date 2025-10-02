@@ -8,141 +8,80 @@
 Variables
 ===============
 */
-
 :root {
-  /* bcg */
-  --toggle-color: #f4f6f0;
-  --nav-bcg: linear-gradient(rgba(160, 160, 160, 0.1), rgba(160, 160, 160, 0.1)),
+  --toggle-color: #EFF6FF;
+  --nav-bcg: linear-gradient(rgba(191, 219, 254, 0.05), rgba(191, 219, 254, 0.05)),
     url(./images/hero/hero-bcg-light.svg) center repeat fixed;
-  --hero-bcg: linear-gradient(
-      rgba(160, 160, 160, 0.1),
-      rgba(160, 160, 160, 0.1),
-      rgba(250, 250, 250, 0.5)
-    ),
+  --hero-bcg: linear-gradient(rgba(239, 246, 255, 0.05), rgba(239, 246, 255, 0.05)),
     url(./images/hero/hero-bcg-light.svg) center repeat;
-  --contact-bcg: linear-gradient(
-      rgba(160, 160, 160, 0.3),
-      rgba(160, 160, 160, 0.3)
-    ),
+  --contact-bcg: linear-gradient(rgba(191, 219, 254, 0.1), rgba(191, 219, 254, 0.1)),
     url(./images/contact/contact-bcg.png) center repeat;
 
-  /* white colors */
-  --clr-body-bcg: #fff;
-  --clr-body-bcg-2: rgb(250, 250, 250);
-  --clr-body-bcg-3: #f0f0f0;
-  /* black colors  */
-  --clr-font: #101114;
-  --clr-font-2: #191a1d;
-  --clr-font-3: #252525;
-  /* primary colors */
-  --clr-primary: #008037;
-  --clr-secondary: #00995e;
-  --clr-tertiary: #a2e2be;
-  /* shadows */
-  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  /* other colors */
-  --clr-white: #fff;
-  --clr-black: #222;
-  --clr-primary-gradient: linear-gradient(
-    to top right,
-    var(--clr-secondary),
-    var(--clr-primary)
-  );
-  /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
-  --clr-grey-2: hsl(211, 39%, 23%);
-  --clr-grey-3: hsl(209, 34%, 30%);
-  --clr-grey-4: hsl(209, 28%, 39%);
-  /* grey used for paragraphs */
-  --clr-grey-5: hsl(210, 22%, 49%);
-  --clr-grey-6: hsl(209, 23%, 60%);
-  --clr-grey-7: hsl(211, 27%, 70%);
-  --clr-grey-8: hsl(210, 31%, 80%);
-  --clr-grey-9: hsl(212, 33%, 89%);
-  --clr-grey-10: #eef3f7;
+  --clr-body-bcg: #FFFFFF;
+  --clr-body-bcg-2: #EFF6FF;
+  --clr-body-bcg-3: #DBEAFE;
 
-  --clr-tools-text: var(--clr-grey-3);
-  /* font families */
+  --clr-font: #111827;
+  --clr-font-2: #1F2937;
+  --clr-font-3: #4B5563;
+
+  --clr-primary: #3B82F6;   /* blue accent */
+  --clr-secondary: #60A5FA;
+  --clr-tertiary: #93C5FD;
+
+  --clr-primary-gradient: linear-gradient(to top right, var(--clr-primary), var(--clr-secondary));
+
+  --clr-grey-1: #111827;
+  --clr-grey-2: #1F2937;
+  --clr-grey-3: #4B5563;
+  --clr-grey-4: #6B7280;
+  --clr-grey-5: #9CA3AF;
+  --clr-grey-6: #D1D5DB;
+  --clr-grey-7: #E5E7EB;
+  --clr-grey-8: #F3F4F6;
+  --clr-grey-9: #F9FAFB;
+  --clr-grey-10: #FFFFFF;
+
+  --light-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  --dark-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
   --ff-primary: 'Roboto', sans-serif;
   --ff-secondary: 'Ubuntu', sans-serif;
   --ff-tertiary: 'Poppins', sans-serif;
-  /* transitions */
+
   --transition: all 0.3s linear;
   --long-transition: all 1s ease;
-  /* spacing */
   --spacing: 0.2rem;
-  /* radius */
   --radius: 0.25rem;
-  /* width */
   --max-width: 1280px;
   --fixed-width: 560px;
 }
+
 .dark {
-  /* bcg */
-  --toggle-color: #fce570;
-  --nav-bcg: linear-gradient(rgba(4, 1, 1, 0.1), rgba(4, 1, 1, 0.1)),
+  --toggle-color: #60A5FA;
+  --nav-bcg: linear-gradient(rgba(17, 24, 39, 0.05), rgba(17, 24, 39, 0.05)),
     url(./images/hero/hero-bcg-dark.svg) center repeat fixed;
-  --hero-bcg: linear-gradient(
-      rgba(4, 1, 1, 0.1),
-      rgba(5, 5, 5, 0.1),
-      rgba(4, 1, 1, 0.1)
-    ),
+  --hero-bcg: linear-gradient(rgba(17, 24, 39, 0.03), rgba(17, 24, 39, 0.03)),
     url(./images/hero/hero-bcg-dark.svg) center repeat;
-  --contact-bcg: linear-gradient(
-      to bottom right,
-      rgba(20, 20, 20, 0.75),
-      rgba(20, 20, 20, 0.5),
-      rgba(20, 20, 20, 0.75)
-    ),
+  --contact-bcg: linear-gradient(rgba(17, 24, 39, 0.75), rgba(17, 24, 39, 0.5)),
     url(./images/contact/contact-bcg.png) center repeat;
 
-  /* black colors */
-  --clr-body-bcg: #0a0a0b;
-  --clr-body-bcg-2: #0e0d0d;
-  --clr-body-bcg-3: #181717;
-  /* white colors  */
-  --clr-font: rgba(255, 255, 255, 0.9);
-  --clr-font-2: #f5f6f7;
-  --clr-font-3: #f0f0f0;
+  --clr-body-bcg: #111827;
+  --clr-body-bcg-2: #1F2937;
+  --clr-body-bcg-3: #374151;
 
-  --clr-tools-text: var(--clr-grey-7);
-  /* shadows */
-  --light-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
-  --dark-shadow: 0 2px 5px rgba(255, 255, 255, 0.5);
+  --clr-font: #F9FAFB;
+  --clr-font-2: #E5E7EB;
+  --clr-font-3: #D1D5DB;
+
+  --clr-tools-text: #9CA3AF;
+
+  --light-shadow: 0 2px 5px rgba(255,255,255,0.05);
+  --dark-shadow: 0 2px 5px rgba(255,255,255,0.1);
 }
 
-.light {
-  /* bcg */
-  --toggle-color: #f4f6f0;
-  --nav-bcg: linear-gradient(rgba(160, 160, 160, 0.1), rgba(160, 160, 160, 0.1)),
-    url(./images/hero/hero-bcg-light.svg) center repeat fixed;
-  --hero-bcg: linear-gradient(
-      rgba(160, 160, 160, 0.1),
-      rgba(160, 160, 160, 0.1),
-      rgba(250, 250, 250, 0.5)
-    ),
-    url(./images/hero/hero-bcg-light.svg) center repeat;
-  --contact-bcg: linear-gradient(
-      rgba(160, 160, 160, 0.3),
-      rgba(160, 160, 160, 0.3)
-    ),
-    url(./images/contact/contact-bcg.png) center repeat;
 
-  /* white colors */
-  --clr-body-bcg: #fff;
-  --clr-body-bcg-2: rgb(250, 250, 250);
-  --clr-body-bcg-3: #f0f0f0;
-  /* black colors  */
-  --clr-font: #101114;
-  --clr-font-2: #191a1d;
-  --clr-font-3: #252525;
 
-  --clr-tools-text: var(--clr-grey-3);
-  /* shadows */
-  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
 
 /*
 ===============
@@ -1024,7 +963,7 @@ PROJECTS
     height: 100%;
     background: linear-gradient(
       to bottom left,
-      rgba(0, 128, 55, 0.5),
+      rgba(96, 190, 209, 0.5),
       rgba(0, 0, 0, 0.5)
     );
     transition: var(--transition);

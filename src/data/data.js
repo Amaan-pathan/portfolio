@@ -7,7 +7,8 @@ import reactjs from '../images/skills/react.svg';
 import git from '../images/skills/git.svg';
 import figma from '../images/skills/figma.svg';
 import docker from '../images/skills/docker.svg';
-
+import node from '../images/skills/node.svg';
+import sql from '../images/skills/mysql.svg'
 // ###########
 // skills
 // ###########
@@ -54,4 +55,14 @@ export const skills = [
     title: 'Docker',
     icon: docker,
   },
+  {
+    id: 14,
+    title: 'NodeJs',
+    icon: node,
+  },
+  {
+    id: 15,
+    title: 'Mysql',
+    icon: sql,
+  }
 ];

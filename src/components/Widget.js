@@ -1,5 +1,5 @@
 import React from 'react';
-import buymeacoffee from '../images/buymeacoffee.png';
+
 
 export const Widget = () => {
   return (<></>

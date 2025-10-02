@@ -39,7 +39,7 @@ const Links = () => {
               <img src={aboutImg} alt="Pathan Amaan" className="links-page-image" />
             </div>
             <h4>Pathan Amaan</h4>
-            <p>@yodkwtf</p>
+            <p>@amaan</p>
           </article>
 
           <article className="section-center links-page-center">

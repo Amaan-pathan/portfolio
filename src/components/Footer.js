@@ -18,7 +18,7 @@ export const Footer = () => {
         <p className="footer-text">
           Find an issue with this page?{' '}
           <a
-            href="https://github.com/yodkwtf/yodkwtf.com"
+            href="https://github.com/Amaan-pathan"
             target="_blank"
             rel="noreferrer"
             title="Full Source Code"

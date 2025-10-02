@@ -18,7 +18,7 @@ export const Hero = () => {
               hey,<span> i'm Pathan Amaan</span>
             </h1>
             <p>
-            Full-Stack Web Developer with hands-on experience in building dynamic web platforms, contributing to open-source (Zulip, GSoC), and leading entrepreneurial initiatives as President of Shark Sphere E-Cell. Skilled in React, Django, and modern web technologies, with a strong focus on solving real-world problems.
+            Full-Stack Web Developer with experience in building scalable web platforms, contributing to open-source communities (Zulip), and solving complex problems with innovative solutions. As President of Shark Sphere E-Cell, I have demonstrated leadership, collaboration, and the ability to drive impactful initiatives while fostering innovation and growth.
             </p>
             <div className="hero-btn-container">
               <a
